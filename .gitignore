@@ -9,3 +9,4 @@ venv/
 # Project
 uploads/
 media/
+*.pdf
