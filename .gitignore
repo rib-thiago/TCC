@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment
+venv/
+*.env
+
+# Project
+uploads/
+media/
