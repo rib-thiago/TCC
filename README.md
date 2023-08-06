@@ -8,12 +8,20 @@ Nos últimos 20 anos, a disseminação da Tecnologia da Informação tem causado
 
 **Frontend**:
 
-![Custom badge](https://img.shields.io/badge/HTML5-5-orange?logo=html5&logoColor=white) ![Custom badge](https://img.shields.io/badge/CSS3-3-blue?logo=css3&logoColor=white) ![Custom badge](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=white) ![Custom badge](https://img.shields.io/badge/Markdown-1.0-lightgrey?logo=markdown&logoColor=white)
+![Custom badge](https://img.shields.io/badge/HTML5-5-orange?logo=html5&logoColor=white)
+![Custom badge](https://img.shields.io/badge/CSS3-3-blue?logo=css3&logoColor=white)
+![Custom badge](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=white)
+![Custom badge](https://img.shields.io/badge/Markdown-1.0-lightgrey?logo=markdown&logoColor=white)
 
 **Backend**:
 
-![Angular-13.1.0-red](https://img.shields.io/badge/Flask-2.1.0-black?logo=flask&logoColor=white)
+![Custom badge](https://img.shields.io/badge/Flask-2.3.2-black?logo=flask&logoColor=white)
+
+**Depedências**:
+
+![Custom badge](https://img.shields.io/badge/PyPDF-3.0.1-blue?logo=python&logoColor=white)
+![Custom badge](https://img.shields.io/badge/translate-3.6.1-green?logo=python&logoColor=white)
 
 **Controle de Versão**:
 
-![Flask-2.0.2-lightgrey](https://img.shields.io/badge/Git-2.34-orange?logo=git&logoColor=white)
+![Custom badge](https://img.shields.io/badge/Git-2.34-orange?logo=git&logoColor=white)
