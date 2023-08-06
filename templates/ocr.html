@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Text Extractor</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="mt-5 text-center">Image Text Extractor</h1>
+            <form action="/ocr" method="post" enctype="multipart/form-data">
+                <input
+                    type="file"
+                    name="file"
+                    accept=".png, .jpg, .jpeg"
+                    class="form-control mb-4"
+                />
+                <label for="language">Language for OCR:</label>
+                <input
+                    type="text"
+                    id="language"
+                    name="language"
+                    value="eng"
+                    class="form-control mb-4"
+                />
+                <label for="dest_language"
+                    >Destination Language for Translation:</label
+                >
+                <input
+                    type="text"
+                    id="dest_language"
+                    name="dest_language"
+                    value="eng"
+                    class="form-control mb-4"
+                />
+                <button type="submit" class="btn btn-dark">
+                    Extract and Translate
+                </button>
+            </form>
+            <br />
+            <section class="section">
+                <h2 class="title">Extracted Text:</h2>
+                <pre>{{ extracted_text }}</pre>
+            </section>
+            <section class="section">
+                <h2 class="title">Translated Text:</h2>
+                <pre>{{ translated_text }}</pre>
+            </section>
+        </div>
+    </body>
+</html>
