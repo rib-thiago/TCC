@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDF Text Extractor</title>
+  </head>
+  <body>
+    <h1>PDF Text Extractor</h1>
+    <form action="/extract" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".pdf" />
+      <input type="submit" value="Extract Text" />
+    </form>
+    <br />
+    <h2>Extracted Text:</h2>
+    <pre>{{ extracted_text }}</pre>
+  </body>
+</html>

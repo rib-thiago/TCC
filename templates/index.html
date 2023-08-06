@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Combined App</title>
+  </head>
+  <body>
+    <h1>Combined App</h1>
+    <ul>
+      <li><a href="{{ url_for('extract') }}">Extract Text</a></li>
+      <li><a href="{{ url_for('merge') }}">Merge PDFs</a></li>
+      <li><a href="{{ url_for('metadata') }}">Edit Metadata</a></li>
+      <li><a href="{{ url_for('split') }}">Split PDF</a></li>
+      <li><a href="{{ url_for('translate') }}">Translate Text</a></li>
+    </ul>
+  </body>
+</html>
