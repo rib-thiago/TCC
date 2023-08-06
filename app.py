@@ -116,7 +116,7 @@ def translate():
             pdf_file.save(pdf_path)
 
             translated_text = extract_and_translate(pdf_path)
-            return render_template('translation_result.html', translated_text=translated_text)
+            return render_template('translate.html', translated_text=translated_text)
 
     return render_template('translate.html')
 
