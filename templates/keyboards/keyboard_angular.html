@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minha Aplicação Angular</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="myApp" ng-controller="AppController">
+            <h1>Hello, world!</h1>
+            <textarea ng-model="message"></textarea>
+            <button ng-click="showAlert()">Clique aqui</button>
+        </div>
+
+        <script>
+            angular.module("myApp", []);
+
+            angular
+                .module("myApp")
+                .controller("AppController", function ($scope) {
+                    $scope.message = "Meu texto";
+
+                    $scope.showAlert = function () {
+                        alert($scope.message);
+                    };
+                });
+        </script>
+    </body>
+</html>
