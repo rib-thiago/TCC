@@ -49,7 +49,11 @@ def index():
         texto, translated = extract_text(f'./uploads/{filename}', language, dest_language)
 
         # Passar as variáveis para o template
-        return render_template("ocr.html", extracted_text=texto, translated_text=translated)
+        return render_template('ocr.html', extracted_text=texto, translated_text=translated)
+
+    # Retorna uma resposta vazia ou redireciona para a página principal
+    return render_template('ocr.html', extracted_text=extracted_text, translated_text=translated_text)
+
 
 if __name__ == '__main__':
     os.environ["TESSDATA_PREFIX"] = "/home/thiago/tessdata"
